@@ -1,0 +1,12 @@
+PROCEDURE swap(a,b)
+VAR
+   temp:=a  
+   a:=b  
+   b:=temp 
+BEGIN
+    for i from 0 to arr.length-1step1
+    for j from 0 to arr.length-2step1
+    do if (arr[j]>arr[j+1])
+    then swap (arr[j],arr[j+1])
+END for 
+END for 
